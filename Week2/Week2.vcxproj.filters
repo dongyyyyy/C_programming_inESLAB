@@ -18,5 +18,14 @@
     <ClCompile Include="example_1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Queue_using_linkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_using_linkedList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue_priority.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
