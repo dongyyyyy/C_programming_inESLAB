@@ -27,5 +27,8 @@
     <ClCompile Include="Queue_priority.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
