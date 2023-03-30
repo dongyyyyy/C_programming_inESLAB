@@ -23,8 +23,15 @@ int fibonacci(int num)
 void main()
 {
 	int num;
-	printf("숫자를 입력하세요 : ");
-	scanf_s("%d", &num, sizeof(num));
+	while (1)
+	{
+		printf("숫자를 입력하세요 : (-1 : 종료)");
+		scanf_s("%d", &num, sizeof(num));
 
-	printf("결과 : %d\n", fibonacci(num));
+		if ( num == -1)
+		{
+			return;
+		}
+		printf("결과 : %d\n", fibonacci(num));
+	}
 }

@@ -26,11 +26,19 @@ int fibonacci(int num, int* num0, int* num1)
 void main()
 {
 	int num;
-	int num0, num1;
-	num0 = 0;
-	num1 = 0;
-	printf("숫자를 입력하세요 : ");
-	scanf_s("%d", &num, sizeof(num));
-	fibonacci(num, &num0, &num1);
-	printf("결과 : %d %d \n", num0,num1);
+	while (1)
+	{
+		printf("숫자를 입력하세요 : (-1 : 종료)");
+		int num0, num1;
+		num0 = 0;
+		num1 = 0;
+		scanf_s("%d", &num, sizeof(num));
+
+		if (num == -1)
+		{
+			return;
+		}
+		fibonacci(num, &num0, &num1);
+		printf("결과 : %d %d \n", num0, num1);
+	}
 }
